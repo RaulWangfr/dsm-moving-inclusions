@@ -1,0 +1,20 @@
+# mesh cache (gigabytes, regenerate with run_case.py)
+mesh/
+*.msh
+
+# forward fields and cached index functions (regenerate)
+data/*.npz
+outputs/
+figures/out/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
